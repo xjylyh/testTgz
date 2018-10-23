@@ -23,13 +23,13 @@ async function a(){
     try{
         let {stderr,stdout} = await exec('git status');
         console.log(stdout);
-        if(!stdout.toString().includes('nothing to commit, working tree clean')){
+        if(stdout.toString().includes('nothing to commit, working tree clean')){
+            console.log('already is uptodate');
+        }else{
             await exec('git add .');
             await exec('git commit -m "store changes" ');
             let {stderr,stdout} = await exec('git push origin master');
             console.log('stdout:'+stdout);
-        }else{
-            console.log('already is uptodate');
         }
     }catch(err){
         if(err){
