@@ -14,7 +14,7 @@ scheduleJob('2 * * * * *',async ()=>{
             let strs = await exec('git commit -m "'+new Date()+'"');
             console.log(strs);
             let {stderr,stdout} = await exec('git push origin master');
-            console.log('stdout:'+stdout);
+            console.log('stdout:'+stdout); 
         }
     }catch(err){
         if(err){
