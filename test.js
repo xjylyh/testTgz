@@ -28,6 +28,8 @@ async function a(){
             await exec('git commit -m "store changes" ');
             let {stderr,stdout} = await exec('git push origin master');
             console.log('stdout:'+stdout);
+        }else{
+            console.log('already is uptodate');
         }
     }catch(err){
         if(err){
