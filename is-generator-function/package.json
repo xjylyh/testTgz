@@ -1,0 +1,863 @@
+{
+	"name": "is-generator-function",
+	"versions": {
+		"0.0.0": {
+			"name": "is-generator-function",
+			"version": "0.0.0",
+			"description": "Determine if a function is an ES6 generator function or not.",
+			"main": "index.js",
+			"scripts": {
+				"test": "node --harmony test/index.js",
+				"coverage": "covert test/index.js",
+				"coverage-quiet": "covert test/index.js --quiet"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/ljharb/is-generator-function.git"
+			},
+			"keywords": [
+				"generator",
+				"generator function",
+				"es6",
+				"yield",
+				"function",
+				"function*"
+			],
+			"author": {
+				"name": "Jordan Harband"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/ljharb/is-generator-function/issues"
+			},
+			"dependencies": {},
+			"devDependencies": {
+				"tape": "~2.4.2",
+				"covert": "~0.3.1"
+			},
+			"testling": {
+				"files": "test/index.js",
+				"browsers": [
+					"iexplore/6.0..latest",
+					"firefox/3.0..6.0",
+					"firefox/15.0..latest",
+					"firefox/nightly",
+					"chrome/4.0..10.0",
+					"chrome/20.0..latest",
+					"chrome/canary",
+					"opera/10.0..latest",
+					"opera/next",
+					"safari/4.0..latest",
+					"ipad/6.0..latest",
+					"iphone/6.0..latest",
+					"android-browser/4.2"
+				]
+			},
+			"engines": {
+				"node": ">= 0.4"
+			},
+			"homepage": "https://github.com/ljharb/is-generator-function",
+			"_id": "is-generator-function@0.0.0",
+			"dist": {
+				"shasum": "129ab23c6577ce0370f099b8c64c7c1f79ff96d9",
+				"tarball": "https://registry.npmjs.org/is-generator-function/-/is-generator-function-0.0.0.tgz"
+			},
+			"_from": ".",
+			"_npmVersion": "1.3.25",
+			"_npmUser": {
+				"name": "ljharb",
+				"email": "ljharb@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "ljharb",
+					"email": "ljharb@gmail.com"
+				}
+			],
+			"directories": {}
+		},
+		"1.0.0": {
+			"name": "is-generator-function",
+			"version": "1.0.0",
+			"description": "Determine if a function is an ES6 generator function or not.",
+			"main": "index.js",
+			"scripts": {
+				"test": "npm run lint && node --harmony test/index.js",
+				"coverage": "covert test/index.js",
+				"coverage-quiet": "covert test/index.js --quiet",
+				"lint": "jscs *.js */*.js"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/ljharb/is-generator-function.git"
+			},
+			"keywords": [
+				"generator",
+				"generator function",
+				"es6",
+				"yield",
+				"function",
+				"function*"
+			],
+			"author": {
+				"name": "Jordan Harband"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/ljharb/is-generator-function/issues"
+			},
+			"dependencies": {},
+			"devDependencies": {
+				"tape": "~2.14.0",
+				"covert": "~0.4.0",
+				"jscs": "~1.5.8"
+			},
+			"testling": {
+				"files": "test/index.js",
+				"browsers": [
+					"iexplore/6.0..latest",
+					"firefox/3.0..6.0",
+					"firefox/15.0..latest",
+					"firefox/nightly",
+					"chrome/4.0..10.0",
+					"chrome/20.0..latest",
+					"chrome/canary",
+					"opera/10.0..latest",
+					"opera/next",
+					"safari/4.0..latest",
+					"ipad/6.0..latest",
+					"iphone/6.0..latest",
+					"android-browser/4.2"
+				]
+			},
+			"engines": {
+				"node": ">= 0.4"
+			},
+			"gitHead": "dbae3b3200368ed1476bef780b51d97c325a1265",
+			"homepage": "https://github.com/ljharb/is-generator-function",
+			"_id": "is-generator-function@1.0.0",
+			"_shasum": "28bd2d41289beb29c91f7f653d252fd4a40cf26f",
+			"_from": ".",
+			"_npmVersion": "1.4.21",
+			"_npmUser": {
+				"name": "ljharb",
+				"email": "ljharb@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "ljharb",
+					"email": "ljharb@gmail.com"
+				}
+			],
+			"dist": {
+				"shasum": "28bd2d41289beb29c91f7f653d252fd4a40cf26f",
+				"tarball": "https://registry.npmjs.org/is-generator-function/-/is-generator-function-1.0.0.tgz"
+			},
+			"directories": {}
+		},
+		"1.0.1": {
+			"name": "is-generator-function",
+			"version": "1.0.1",
+			"description": "Determine if a function is an ES6 generator function or not.",
+			"main": "index.js",
+			"scripts": {
+				"test": "npm run lint && node --harmony test/index.js",
+				"coverage": "covert test/index.js",
+				"coverage-quiet": "covert test/index.js --quiet",
+				"lint": "jscs *.js */*.js"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/ljharb/is-generator-function.git"
+			},
+			"keywords": [
+				"generator",
+				"generator function",
+				"es6",
+				"yield",
+				"function",
+				"function*"
+			],
+			"author": {
+				"name": "Jordan Harband"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/ljharb/is-generator-function/issues"
+			},
+			"dependencies": {},
+			"devDependencies": {
+				"make-generator-function": "~1.0.0",
+				"tape": "~3.0.3",
+				"covert": "1.0.0",
+				"jscs": "~1.8.1"
+			},
+			"testling": {
+				"files": "test/index.js",
+				"browsers": [
+					"iexplore/6.0..latest",
+					"firefox/3.0..6.0",
+					"firefox/15.0..latest",
+					"firefox/nightly",
+					"chrome/4.0..10.0",
+					"chrome/20.0..latest",
+					"chrome/canary",
+					"opera/10.0..latest",
+					"opera/next",
+					"safari/4.0..latest",
+					"ipad/6.0..latest",
+					"iphone/6.0..latest",
+					"android-browser/4.2"
+				]
+			},
+			"engines": {
+				"node": ">= 0.4"
+			},
+			"gitHead": "363c18f7bc2681f4fc277d1c86279d0806d6c023",
+			"homepage": "https://github.com/ljharb/is-generator-function",
+			"_id": "is-generator-function@1.0.1",
+			"_shasum": "5c2f8233f2ccf421bd5eb16ce1c5c7d6e3e5ea4a",
+			"_from": ".",
+			"_npmVersion": "2.0.0",
+			"_npmUser": {
+				"name": "ljharb",
+				"email": "ljharb@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "ljharb",
+					"email": "ljharb@gmail.com"
+				}
+			],
+			"dist": {
+				"shasum": "5c2f8233f2ccf421bd5eb16ce1c5c7d6e3e5ea4a",
+				"tarball": "https://registry.npmjs.org/is-generator-function/-/is-generator-function-1.0.1.tgz"
+			},
+			"directories": {}
+		},
+		"1.0.2": {
+			"name": "is-generator-function",
+			"version": "1.0.2",
+			"description": "Determine if a function is an ES6 generator function or not.",
+			"main": "index.js",
+			"scripts": {
+				"test": "npm run lint && node --harmony test/index.js",
+				"coverage": "covert test/index.js",
+				"coverage-quiet": "covert test/index.js --quiet",
+				"lint": "jscs *.js */*.js"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/ljharb/is-generator-function.git"
+			},
+			"keywords": [
+				"generator",
+				"generator function",
+				"es6",
+				"yield",
+				"function",
+				"function*"
+			],
+			"author": {
+				"name": "Jordan Harband"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/ljharb/is-generator-function/issues"
+			},
+			"dependencies": {},
+			"devDependencies": {
+				"make-generator-function": "~1.0.0",
+				"tape": "~3.4.0",
+				"covert": "1.0.0",
+				"jscs": "~1.10.0"
+			},
+			"testling": {
+				"files": "test/index.js",
+				"browsers": [
+					"iexplore/6.0..latest",
+					"firefox/3.0..6.0",
+					"firefox/15.0..latest",
+					"firefox/nightly",
+					"chrome/4.0..10.0",
+					"chrome/20.0..latest",
+					"chrome/canary",
+					"opera/10.0..latest",
+					"opera/next",
+					"safari/4.0..latest",
+					"ipad/6.0..latest",
+					"iphone/6.0..latest",
+					"android-browser/4.2"
+				]
+			},
+			"engines": {
+				"node": ">= 0.4"
+			},
+			"gitHead": "373747ee2d93eafb6dbb001a586798bbf2b41958",
+			"homepage": "https://github.com/ljharb/is-generator-function",
+			"_id": "is-generator-function@1.0.2",
+			"_shasum": "b11c2cf4d92ee272c5879affaaceb9040b37d71a",
+			"_from": ".",
+			"_npmVersion": "2.2.0",
+			"_nodeVersion": "1.0.3",
+			"_npmUser": {
+				"name": "ljharb",
+				"email": "ljharb@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "ljharb",
+					"email": "ljharb@gmail.com"
+				}
+			],
+			"dist": {
+				"shasum": "b11c2cf4d92ee272c5879affaaceb9040b37d71a",
+				"tarball": "https://registry.npmjs.org/is-generator-function/-/is-generator-function-1.0.2.tgz"
+			},
+			"directories": {}
+		},
+		"1.0.3": {
+			"name": "is-generator-function",
+			"version": "1.0.3",
+			"description": "Determine if a function is an ES6 generator function or not.",
+			"main": "index.js",
+			"scripts": {
+				"test": "npm run lint && node --es-staging --harmony test/index.js",
+				"coverage": "covert test/index.js",
+				"coverage-quiet": "covert test/index.js --quiet",
+				"lint": "jscs *.js */*.js"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/ljharb/is-generator-function.git"
+			},
+			"keywords": [
+				"generator",
+				"generator function",
+				"es6",
+				"yield",
+				"function",
+				"function*"
+			],
+			"author": {
+				"name": "Jordan Harband"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/ljharb/is-generator-function/issues"
+			},
+			"dependencies": {},
+			"devDependencies": {
+				"make-generator-function": "~1.0.0",
+				"tape": "~3.4.0",
+				"covert": "1.0.0",
+				"jscs": "~1.10.0",
+				"semver": "~4.2.0"
+			},
+			"testling": {
+				"files": "test/index.js",
+				"browsers": [
+					"iexplore/6.0..latest",
+					"firefox/3.0..6.0",
+					"firefox/15.0..latest",
+					"firefox/nightly",
+					"chrome/4.0..10.0",
+					"chrome/20.0..latest",
+					"chrome/canary",
+					"opera/10.0..latest",
+					"opera/next",
+					"safari/4.0..latest",
+					"ipad/6.0..latest",
+					"iphone/6.0..latest",
+					"android-browser/4.2"
+				]
+			},
+			"engines": {
+				"node": ">= 0.4"
+			},
+			"gitHead": "8fb1316c36e566aea634a192ed3321edd43c5a9f",
+			"homepage": "https://github.com/ljharb/is-generator-function",
+			"_id": "is-generator-function@1.0.3",
+			"_shasum": "d374ca57e807444fa2658be3728ed6b174b326b1",
+			"_from": ".",
+			"_npmVersion": "2.3.0",
+			"_nodeVersion": "1.0.4",
+			"_npmUser": {
+				"name": "ljharb",
+				"email": "ljharb@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "ljharb",
+					"email": "ljharb@gmail.com"
+				}
+			],
+			"dist": {
+				"shasum": "d374ca57e807444fa2658be3728ed6b174b326b1",
+				"tarball": "https://registry.npmjs.org/is-generator-function/-/is-generator-function-1.0.3.tgz"
+			},
+			"directories": {}
+		},
+		"1.0.5": {
+			"name": "is-generator-function",
+			"version": "1.0.5",
+			"description": "Determine if a function is an ES6 generator function or not.",
+			"main": "index.js",
+			"scripts": {
+				"pretest": "npm run lint",
+				"test": "npm run tests-only",
+				"tests-only": "node --es-staging --harmony test/index.js",
+				"posttest": "npm run security",
+				"coverage": "covert test/index.js",
+				"coverage-quiet": "covert test/index.js --quiet",
+				"lint": "npm run jscs && npm run eslint",
+				"jscs": "jscs *.js */*.js",
+				"eslint": "eslint *.js */*.js",
+				"security": "nsp check"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/ljharb/is-generator-function.git"
+			},
+			"keywords": [
+				"generator",
+				"generator function",
+				"es6",
+				"yield",
+				"function",
+				"function*"
+			],
+			"author": {
+				"name": "Jordan Harband"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/ljharb/is-generator-function/issues"
+			},
+			"dependencies": {},
+			"devDependencies": {
+				"make-generator-function": "^1.1.0",
+				"tape": "^4.6.3",
+				"covert": "^1.1.0",
+				"jscs": "^3.0.7",
+				"eslint": "^3.12.2",
+				"@ljharb/eslint-config": "^9.0.1",
+				"semver": "^5.3.0",
+				"replace": "^0.3.0",
+				"nsp": "^2.6.2"
+			},
+			"testling": {
+				"files": "test/index.js",
+				"browsers": [
+					"iexplore/6.0..latest",
+					"firefox/3.0..6.0",
+					"firefox/15.0..latest",
+					"firefox/nightly",
+					"chrome/4.0..10.0",
+					"chrome/20.0..latest",
+					"chrome/canary",
+					"opera/10.0..latest",
+					"opera/next",
+					"safari/4.0..latest",
+					"ipad/6.0..latest",
+					"iphone/6.0..latest",
+					"android-browser/4.2"
+				]
+			},
+			"engines": {
+				"node": ">= 0.4"
+			},
+			"gitHead": "81e9adac7b6f76ec8f4c70d9cb92d95022ac73ac",
+			"homepage": "https://github.com/ljharb/is-generator-function#readme",
+			"_id": "is-generator-function@1.0.5",
+			"_shasum": "9ddb7301a157d011aec579cf691e6551c0c806db",
+			"_from": ".",
+			"_npmVersion": "3.10.10",
+			"_nodeVersion": "7.2.1",
+			"_npmUser": {
+				"name": "ljharb",
+				"email": "ljharb@gmail.com"
+			},
+			"dist": {
+				"shasum": "9ddb7301a157d011aec579cf691e6551c0c806db",
+				"tarball": "https://registry.npmjs.org/is-generator-function/-/is-generator-function-1.0.5.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "ljharb",
+					"email": "ljharb@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/is-generator-function-1.0.5.tgz_1482220790150_0.9029339607805014"
+			},
+			"deprecated": "v1.0.5 has a bug with core-js in environments without native generator functions. Upgrade to v1.0.6 or later",
+			"directories": {}
+		},
+		"1.0.4": {
+			"name": "is-generator-function",
+			"version": "1.0.4",
+			"description": "Determine if a function is an ES6 generator function or not.",
+			"main": "index.js",
+			"scripts": {
+				"test": "npm run lint && node --es-staging --harmony test/index.js",
+				"coverage": "covert test/index.js",
+				"coverage-quiet": "covert test/index.js --quiet",
+				"lint": "jscs *.js */*.js"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/ljharb/is-generator-function.git"
+			},
+			"keywords": [
+				"generator",
+				"generator function",
+				"es6",
+				"yield",
+				"function",
+				"function*"
+			],
+			"author": {
+				"name": "Jordan Harband"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/ljharb/is-generator-function/issues"
+			},
+			"dependencies": {},
+			"devDependencies": {
+				"make-generator-function": "^1.1.0",
+				"tape": "^3.5.0",
+				"covert": "^1.0.1",
+				"jscs": "^1.11.3",
+				"semver": "^4.3.1",
+				"replace": "^0.3.0"
+			},
+			"testling": {
+				"files": "test/index.js",
+				"browsers": [
+					"iexplore/6.0..latest",
+					"firefox/3.0..6.0",
+					"firefox/15.0..latest",
+					"firefox/nightly",
+					"chrome/4.0..10.0",
+					"chrome/20.0..latest",
+					"chrome/canary",
+					"opera/10.0..latest",
+					"opera/next",
+					"safari/4.0..latest",
+					"ipad/6.0..latest",
+					"iphone/6.0..latest",
+					"android-browser/4.2"
+				]
+			},
+			"engines": {
+				"node": ">= 0.4"
+			},
+			"gitHead": "b6c306e6d285fe6b951e4866fe864199bc1b3b86",
+			"homepage": "https://github.com/ljharb/is-generator-function#readme",
+			"_id": "is-generator-function@1.0.4",
+			"_shasum": "31b2ac0a3f2b4af037f5e4a51fd296b5e197bcc1",
+			"_from": ".",
+			"_npmVersion": "3.10.10",
+			"_nodeVersion": "7.2.1",
+			"_npmUser": {
+				"name": "ljharb",
+				"email": "ljharb@gmail.com"
+			},
+			"dist": {
+				"shasum": "31b2ac0a3f2b4af037f5e4a51fd296b5e197bcc1",
+				"tarball": "https://registry.npmjs.org/is-generator-function/-/is-generator-function-1.0.4.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "ljharb",
+					"email": "ljharb@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-18-east.internal.npmjs.com",
+				"tmp": "tmp/is-generator-function-1.0.4.tgz_1482256205192_0.4695625628810376"
+			},
+			"directories": {}
+		},
+		"1.0.6": {
+			"name": "is-generator-function",
+			"version": "1.0.6",
+			"description": "Determine if a function is a native generator function.",
+			"main": "index.js",
+			"scripts": {
+				"pretest": "npm run lint",
+				"test": "npm run tests-only",
+				"tests-only": "node --es-staging --harmony test/index.js",
+				"posttests-only": "npm run test:corejs",
+				"test:corejs": "node test/corejs",
+				"posttest": "npm run security",
+				"coverage": "covert test/index.js",
+				"coverage-quiet": "covert test/index.js --quiet",
+				"lint": "npm run jscs && npm run eslint",
+				"jscs": "jscs *.js */*.js",
+				"eslint": "eslint *.js */*.js",
+				"security": "nsp check"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/ljharb/is-generator-function.git"
+			},
+			"keywords": [
+				"generator",
+				"generator function",
+				"es6",
+				"es2015",
+				"yield",
+				"function",
+				"function*"
+			],
+			"author": {
+				"name": "Jordan Harband"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/ljharb/is-generator-function/issues"
+			},
+			"dependencies": {},
+			"devDependencies": {
+				"make-generator-function": "^1.1.0",
+				"tape": "^4.6.3",
+				"covert": "^1.1.0",
+				"jscs": "^3.0.7",
+				"eslint": "^3.12.2",
+				"@ljharb/eslint-config": "^9.0.1",
+				"semver": "^5.3.0",
+				"replace": "^0.3.0",
+				"nsp": "^2.6.2",
+				"core-js": "^2.4.1"
+			},
+			"testling": {
+				"files": "test/index.js",
+				"browsers": [
+					"iexplore/6.0..latest",
+					"firefox/3.0..6.0",
+					"firefox/15.0..latest",
+					"firefox/nightly",
+					"chrome/4.0..10.0",
+					"chrome/20.0..latest",
+					"chrome/canary",
+					"opera/10.0..latest",
+					"opera/next",
+					"safari/4.0..latest",
+					"ipad/6.0..latest",
+					"iphone/6.0..latest",
+					"android-browser/4.2"
+				]
+			},
+			"engines": {
+				"node": ">= 0.4"
+			},
+			"gitHead": "1723b991126204e1f534bdae5f29b7a2a5bd0053",
+			"homepage": "https://github.com/ljharb/is-generator-function#readme",
+			"_id": "is-generator-function@1.0.6",
+			"_shasum": "9e71653cd15fff341c79c4151460a131d31e9fc4",
+			"_from": ".",
+			"_npmVersion": "3.10.10",
+			"_nodeVersion": "7.2.1",
+			"_npmUser": {
+				"name": "ljharb",
+				"email": "ljharb@gmail.com"
+			},
+			"dist": {
+				"shasum": "9e71653cd15fff341c79c4151460a131d31e9fc4",
+				"tarball": "https://registry.npmjs.org/is-generator-function/-/is-generator-function-1.0.6.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "ljharb",
+					"email": "ljharb@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/is-generator-function-1.0.6.tgz_1482258967738_0.7079989777412266"
+			},
+			"directories": {}
+		},
+		"1.0.7": {
+			"name": "is-generator-function",
+			"version": "1.0.7",
+			"description": "Determine if a function is a native generator function.",
+			"main": "index.js",
+			"scripts": {
+				"pretest": "npm run lint",
+				"test": "npm run tests-only",
+				"tests-only": "node --es-staging --harmony test",
+				"posttests-only": "npm run test:corejs && npm run test:uglified",
+				"test:corejs": "node test/corejs",
+				"test:uglified": "node test/uglified",
+				"posttest": "npm run security",
+				"coverage": "covert test",
+				"lint": "npm run jscs && npm run eslint",
+				"jscs": "jscs *.js */*.js",
+				"eslint": "eslint *.js */*.js",
+				"security": "nsp check"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/ljharb/is-generator-function.git"
+			},
+			"keywords": [
+				"generator",
+				"generator function",
+				"es6",
+				"es2015",
+				"yield",
+				"function",
+				"function*"
+			],
+			"author": {
+				"name": "Jordan Harband"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/ljharb/is-generator-function/issues"
+			},
+			"dependencies": {},
+			"devDependencies": {
+				"@ljharb/eslint-config": "^12.2.1",
+				"core-js": "^2.5.3",
+				"covert": "^1.1.0",
+				"eslint": "^4.14.0",
+				"jscs": "^3.0.7",
+				"make-generator-function": "^1.1.0",
+				"nsp": "^3.1.0",
+				"replace": "^0.3.0",
+				"semver": "^5.4.1",
+				"tape": "^4.8.0",
+				"uglify-register": "^1.0.1"
+			},
+			"testling": {
+				"files": "test/index.js",
+				"browsers": [
+					"iexplore/6.0..latest",
+					"firefox/3.0..6.0",
+					"firefox/15.0..latest",
+					"firefox/nightly",
+					"chrome/4.0..10.0",
+					"chrome/20.0..latest",
+					"chrome/canary",
+					"opera/10.0..latest",
+					"opera/next",
+					"safari/4.0..latest",
+					"ipad/6.0..latest",
+					"iphone/6.0..latest",
+					"android-browser/4.2"
+				]
+			},
+			"engines": {
+				"node": ">= 0.4"
+			},
+			"gitHead": "8cfcb1c104af736ecd60a70fc88eae8ce1dc2272",
+			"homepage": "https://github.com/ljharb/is-generator-function#readme",
+			"_id": "is-generator-function@1.0.7",
+			"_npmVersion": "5.5.1",
+			"_nodeVersion": "9.3.0",
+			"_npmUser": {
+				"name": "ljharb",
+				"email": "ljharb@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-YZc5EwyO4f2kWCax7oegfuSr9mFz1ZvieNYBEjmukLxgXfBUbxAWGVF7GZf0zidYtoBl3WvC07YK0wT76a+Rtw==",
+				"shasum": "d2132e529bb0000a7f80794d4bdf5cd5e5813522",
+				"tarball": "https://registry.npmjs.org/is-generator-function/-/is-generator-function-1.0.7.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "ljharb",
+					"email": "ljharb@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/is-generator-function-1.0.7.tgz_1514499632100_0.9620205189567059"
+			},
+			"directories": {}
+		}
+	},
+	"time": {
+		"modified": "2017-12-28T22:20:32.180Z",
+		"created": "2014-02-10T05:57:44.946Z",
+		"0.0.0": "2014-02-10T05:57:44.946Z",
+		"1.0.0": "2014-08-09T16:54:28.481Z",
+		"1.0.1": "2014-12-15T07:53:14.046Z",
+		"1.0.2": "2015-01-20T08:14:38.587Z",
+		"1.0.3": "2015-01-31T18:38:48.120Z",
+		"1.0.5": "2016-12-20T07:59:50.409Z",
+		"1.0.4": "2016-12-20T17:50:07.483Z",
+		"1.0.6": "2016-12-20T18:36:07.977Z",
+		"1.0.7": "2017-12-28T22:20:32.180Z"
+	},
+	"dist-tags": {
+		"latest": "1.0.7",
+		"backport": "1.0.4"
+	},
+	"_uplinks": {
+		"npmjs": {
+			"etag": "W/\"14440ec25167519e7b3e6ce0bd94c9cc\"",
+			"fetched": 1539691026702
+		}
+	},
+	"_distfiles": {
+		"is-generator-function-0.0.0.tgz": {
+			"url": "https://registry.npmjs.org/is-generator-function/-/is-generator-function-0.0.0.tgz",
+			"sha": "129ab23c6577ce0370f099b8c64c7c1f79ff96d9",
+			"registry": "npmjs"
+		},
+		"is-generator-function-1.0.0.tgz": {
+			"url": "https://registry.npmjs.org/is-generator-function/-/is-generator-function-1.0.0.tgz",
+			"sha": "28bd2d41289beb29c91f7f653d252fd4a40cf26f",
+			"registry": "npmjs"
+		},
+		"is-generator-function-1.0.1.tgz": {
+			"url": "https://registry.npmjs.org/is-generator-function/-/is-generator-function-1.0.1.tgz",
+			"sha": "5c2f8233f2ccf421bd5eb16ce1c5c7d6e3e5ea4a",
+			"registry": "npmjs"
+		},
+		"is-generator-function-1.0.2.tgz": {
+			"url": "https://registry.npmjs.org/is-generator-function/-/is-generator-function-1.0.2.tgz",
+			"sha": "b11c2cf4d92ee272c5879affaaceb9040b37d71a",
+			"registry": "npmjs"
+		},
+		"is-generator-function-1.0.3.tgz": {
+			"url": "https://registry.npmjs.org/is-generator-function/-/is-generator-function-1.0.3.tgz",
+			"sha": "d374ca57e807444fa2658be3728ed6b174b326b1",
+			"registry": "npmjs"
+		},
+		"is-generator-function-1.0.5.tgz": {
+			"url": "https://registry.npmjs.org/is-generator-function/-/is-generator-function-1.0.5.tgz",
+			"sha": "9ddb7301a157d011aec579cf691e6551c0c806db",
+			"registry": "npmjs"
+		},
+		"is-generator-function-1.0.4.tgz": {
+			"url": "https://registry.npmjs.org/is-generator-function/-/is-generator-function-1.0.4.tgz",
+			"sha": "31b2ac0a3f2b4af037f5e4a51fd296b5e197bcc1",
+			"registry": "npmjs"
+		},
+		"is-generator-function-1.0.6.tgz": {
+			"url": "https://registry.npmjs.org/is-generator-function/-/is-generator-function-1.0.6.tgz",
+			"sha": "9e71653cd15fff341c79c4151460a131d31e9fc4",
+			"registry": "npmjs"
+		},
+		"is-generator-function-1.0.7.tgz": {
+			"url": "https://registry.npmjs.org/is-generator-function/-/is-generator-function-1.0.7.tgz",
+			"sha": "d2132e529bb0000a7f80794d4bdf5cd5e5813522",
+			"registry": "npmjs"
+		}
+	},
+	"_attachments": {
+		"is-generator-function-1.0.7.tgz": {
+			"shasum": "d2132e529bb0000a7f80794d4bdf5cd5e5813522"
+		}
+	},
+	"_rev": "4-d11754ded5cf5b43",
+	"readme": "# is-generator-function <sup>[![Version Badge][2]][1]</sup>\n\n[![Build Status][3]][4]\n[![dependency status][5]][6]\n[![dev dependency status][7]][8]\n[![License][license-image]][license-url]\n[![Downloads][downloads-image]][downloads-url]\n\n[![npm badge][11]][1]\n\n[![browser support][9]][10]\n\nIs this a native generator function?\n\n## Example\n\n```js\nvar isGeneratorFunction = require('is-generator-function');\nassert(!isGeneratorFunction(function () {}));\nassert(!isGeneratorFunction(null));\nassert(isGeneratorFunction(function* () { yield 42; return Infinity; }));\n```\n\n## Tests\nSimply clone the repo, `npm install`, and run `npm test`\n\n[1]: https://npmjs.org/package/is-generator-function\n[2]: http://versionbadg.es/ljharb/is-generator-function.svg\n[3]: https://travis-ci.org/ljharb/is-generator-function.svg\n[4]: https://travis-ci.org/ljharb/is-generator-function\n[5]: https://david-dm.org/ljharb/is-generator-function.svg\n[6]: https://david-dm.org/ljharb/is-generator-function\n[7]: https://david-dm.org/ljharb/is-generator-function/dev-status.svg\n[8]: https://david-dm.org/ljharb/is-generator-function#info=devDependencies\n[9]: https://ci.testling.com/ljharb/is-generator-function.png\n[10]: https://ci.testling.com/ljharb/is-generator-function\n[11]: https://nodei.co/npm/is-generator-function.png?downloads=true&stars=true\n[license-image]: http://img.shields.io/npm/l/is-generator-function.svg\n[license-url]: LICENSE\n[downloads-image]: http://img.shields.io/npm/dm/is-generator-function.svg\n[downloads-url]: http://npm-stat.com/charts.html?package=is-generator-function"
+}
