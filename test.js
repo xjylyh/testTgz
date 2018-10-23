@@ -1,7 +1,7 @@
 const path = require('path');
 const util = require('util');
 const exec = util.promisify(require('child_process').exec);
-const scheduleJob = util.promisify(require('node-schedule').scheduleJob);
+const scheduleJob = require('node-schedule').scheduleJob;
 // async function scheduleCronstyle(){
 //     try{
 //         let targetPwd = path.resolve('/home/work/.config/verdaccio');
@@ -27,7 +27,7 @@ async function a(){
             await exec('git add .');
             await exec('git commit -m "store changes" ');
             let {stderr,stdout} = await exec('git push origin master');
-            console.log(stdout);
+            console.log('stdout:'+stdout);
         }
     }catch(err){
         if(err){
@@ -37,4 +37,6 @@ async function a(){
     }
     
 }
-a();
+scheduleJob('2 * * * * *',()=>{
+    a();
+})
