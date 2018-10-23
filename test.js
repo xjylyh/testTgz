@@ -19,7 +19,7 @@ const scheduleJob = require('node-schedule').scheduleJob;
 // }
 // scheduleCronstyle();
 
-async function a(){
+scheduleJob('2 * * * * *',async ()=>{
     try{
         let {stderr,stdout} = await exec('git status');
         console.log(stdout);
@@ -36,8 +36,4 @@ async function a(){
             console.log('catch: '+err);
         }
     }
-    
-}
-scheduleJob('2 * * * * *',()=>{
-    a();
 })
