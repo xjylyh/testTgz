@@ -22,7 +22,7 @@ const scheduleJob = require('node-schedule').scheduleJob;
 async function a(){
     try{
         let {stderr,stdout} = await exec('git status');
-        console.log(stdout,' ',stdout.toString().includes('nothing to commit, working tree clean'));
+        console.log(stdout);
         if(stdout.toString().includes('nothing to commit, working tree clean')){
             console.log('already is uptodate');
         }else{
@@ -34,7 +34,6 @@ async function a(){
     }catch(err){
         if(err){
             console.log('catch: '+err);
-            console.log(err.toString().includes('not a git repository'));
         }
     }
     
