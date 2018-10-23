@@ -11,7 +11,7 @@ scheduleJob('2 * * * * *',async ()=>{
             console.log('already is uptodate');
         }else{
             await exec('git add .');
-            let strs = await exec('git commit -m "'+new Date()+'"');
+            let strs = await exec(`git commit -m "${new Date().toLocaleString()}"`);
             console.log(strs);
             let {stderr,stdout} = await exec('git push origin master');
             console.log('stdout:'+stdout); 
